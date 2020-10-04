@@ -14,7 +14,7 @@ class GetTrending extends UseCase<List<MovieEntity>, NoParams> {
 
   GetTrending(this.repository);
 
-// giving it a name as call(), becasue if a method name is given as call()
+// giving it a name as call(), because if a method name is given as call()
 // it will be executed along with the instance of a class
 // if we create an instance of a GetTrending(), the below call() method will executes
   @override
